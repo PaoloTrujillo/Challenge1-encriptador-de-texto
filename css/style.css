@@ -1,0 +1,140 @@
+html, body{
+    font-family: 'Chewy', cursive;
+    background-color: #E5E5E5;
+    width: auto;
+}
+
+header{
+    width: 100%;
+    background-color: #F3F5FC;
+	height: 100px;
+}
+
+main{
+    width: 100%;
+    height: 780px;
+}
+
+.icono{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    top: 40px;
+}
+
+#texto-ingresado{
+    display: inline-block;
+    font-family: 'Chewy', cursive;
+    width: 50%;
+    margin: 5%;
+    font-size: 24px;
+    color: #495057;
+    border-color: #0A3871;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#texto-ingresado:hover{
+    border-color: #c78c19;
+}
+#texto-ingresado:active{
+    border-color: #088c19;
+}
+
+.contenedor-botones{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#aviso{
+    width: 300px;
+    height: 24px;
+}
+#icono-exclamacion{
+    position: absolute;
+}
+#aviso-fuente{    
+    opacity: 0.8;
+    padding-left: 20px;
+    color: #495057;
+}
+.boton{
+    font-size: 16px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    width: 300px;
+    height: 67px;
+}
+.boton:hover{
+    border-color: #c78c19;
+}
+#btn-encriptar{
+    background: #0A3871;
+    color: #FFFFFF;
+}
+#btn-desencriptar{
+    background: #D8DFE8;
+    color: #0A3871;
+}
+
+#contenedor-resultado{
+    width: 30%;
+    height: 80%;
+    left: 60%;
+    top: -70%;
+    padding: 50px 10px 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
+    border-radius: 32px;
+    position: relative;
+    text-align: center;
+}
+#con-texto{
+    height: 100%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+}
+#resultado{
+    border: none;
+    width: 100%;
+    height: 67%;
+    font-family: 'Chewy';
+    font-size: 24px;
+}
+#btn-copiar{
+    color: #0A3871;
+}
+
+
+#sin-texto .mensaje{
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 24px;
+    color: #343A40;
+}
+#icono-busqueda{
+    width: 90%;
+    height: 90%;
+}
+
+#sin-texto{
+    position: absolute;
+    top: 5%;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #343A40;
+    margin-top: 5%;
+}
+
+.invisible{
+    display: none;
+    visibility: hidden;
+}
+
